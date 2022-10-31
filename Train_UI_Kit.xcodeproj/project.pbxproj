@@ -10,7 +10,7 @@
 		DCD248D529065E99000AFA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD248D429065E99000AFA7E /* AppDelegate.swift */; };
 		DCD248D729065E99000AFA7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD248D629065E99000AFA7E /* SceneDelegate.swift */; };
 		DCD248D929065E99000AFA7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD248D829065E99000AFA7E /* ViewController.swift */; };
-		DCD248DC29065E99000AFA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD248DA29065E99000AFA7E /* Main.storyboard */; };
+		DCD248DC29065E99000AFA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD248DA29065E99000AFA7E /* Main.storyboard */; settings = {ASSET_TAGS = (text, ); }; };
 		DCD248DE29065E9B000AFA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD248DD29065E9B000AFA7E /* Assets.xcassets */; };
 		DCD248E129065E9B000AFA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD248DF29065E9B000AFA7E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -94,6 +94,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					text,
+				);
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
